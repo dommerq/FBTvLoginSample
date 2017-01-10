@@ -2,4 +2,8 @@
     <string name="app_name">FbTVLoginSample</string>
     <string name="facebook_client_token">072e1435dfecc8d625b5b5512f92aa9b</string>
     <string name="facebook_app_id">361384440883478</string>
+
+    <string name="com_facebook_smart_device_instructions_0">YOLO</string>
+
+    <string name="com_facebook_device_auth_instructions">Rendez-vous sur &lt;b>facebook.com/device&lt;/b> sur votre smartphone ou votre ordinateur et entrez ce code :</string>
 </resources>
