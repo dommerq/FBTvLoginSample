@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">FbTVLoginSample</string>
+    <string name="facebook_client_token">072e1435dfecc8d625b5b5512f92aa9b</string>
+    <string name="facebook_app_id">361384440883478</string>
+</resources>
