@@ -10,8 +10,6 @@ import com.facebook.AccessToken;
 import com.facebook.CallbackManager;
 import com.facebook.FacebookCallback;
 import com.facebook.FacebookException;
-import com.facebook.internal.FetchedAppSettings;
-import com.facebook.internal.FetchedAppSettingsManager;
 import com.facebook.login.LoginResult;
 import com.facebook.login.widget.DeviceLoginButton;
 
@@ -25,8 +23,6 @@ public class LoginActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
         facebookLoginButton = (DeviceLoginButton) findViewById(R.id.btn_facebook_login);
-
-        final FetchedAppSettings fetchedAppSettings = FetchedAppSettingsManager.queryAppSettings(BuildConfig.APPLICATION_ID, true);
 
         final Context context = this;
         facebookCallbackManager = CallbackManager.Factory.create();
